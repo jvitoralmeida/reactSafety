@@ -1,0 +1,28 @@
+header#main-header {
+    height: 50px;
+    background: skyblue;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    padding-top: 5px;
+}
+
+header#main-header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px 0px 0px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+ul li a:hover{
+    color: inherit;
+    text-decoration: inherit;
+}

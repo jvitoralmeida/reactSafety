@@ -1,0 +1,54 @@
+.div-login{
+    width: 900px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-login .logo{
+    margin-left: 330px;
+    width: 200px;
+    height: 200px;
+}
+
+.div-login .form-user{
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: 150px;
+    padding: 3px;
+    display: flex;
+}
+
+.div-login .form-senha{
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: 150px;
+    padding: 3px;
+    display: flex;
+}
+
+.div-login .form-user .item{
+    margin: 0px 0px 0px 50px;
+}
+
+.div-login .form-senha .item{
+    margin: 0px 0px 0px 50px;
+}
+
+.div-login .btns{
+    margin-top: 50px;
+    margin-left: 190px;
+    display: flex;
+}
+
+.div-login .btns .itemBtn{
+    margin: 25px 0px 0px 60px;
+}
+
+.div-login .btns .itemBtn a{
+    color: inherit;
+}
+
+.div-login .btns .itemBtn a:hover{
+    text-decoration: none;
+}

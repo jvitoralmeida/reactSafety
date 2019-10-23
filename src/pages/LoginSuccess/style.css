@@ -1,0 +1,35 @@
+.container {
+	max-width: auto;
+	margin:150px auto;
+    display: flex;
+    align-items: center;
+}
+
+.stretch {
+	align-items: stretch;
+}
+
+.item {
+	flex: 1;
+	margin: 2px;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.item li {
+	list-style: none;
+}
+
+.item h1{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.item ul{
+    margin-top: 30px;
+}
+
+.item .foto {
+    border-radius: 50%;
+}
+
