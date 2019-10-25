@@ -1,12 +1,17 @@
 header#main-header {
     height: 50px;
-    background: skyblue;
+    background-color: dodgerblue;
     width: 100%;
     font-size: 18px;
     font-weight: bold;
     color: white;
     display: flex;
     padding-top: 5px;
+}
+
+header#main-header a:visited{
+    color: inherit;
+    text-decoration: inherit;
 }
 
 header#main-header ul li{

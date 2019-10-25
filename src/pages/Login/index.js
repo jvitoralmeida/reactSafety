@@ -11,7 +11,6 @@ import { Button } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
-import { Container } from 'react-bootstrap';
 
 
 class Login extends Component {
@@ -20,7 +19,8 @@ class Login extends Component {
         super(props);
         this.state = {
             username: null,
-            password: null
+            password: null,
+            login: true
         };
 
         this.handleInputChange = this.handleInputChange.bind(this);
@@ -52,12 +52,12 @@ class Login extends Component {
                 })
             })
             .catch(error => {
-                console.log("entrou no erro")
-                console.log(error.response);
+                this.setState({login: false})
             })
     }
 
     render() {
+
         return (
             <div className="div-login">
                 <img src={logo} className="logo" alt="Imagem de login" />
@@ -83,6 +83,7 @@ class Login extends Component {
                         <Button variant="primary" size="lg" className="itemBtn"><Link to="forgetpass">Esqueci minha senha</Link></Button>
                     </Form.Group>
                 </Form>
+                <div>{!this.state.login ? <div className="valida-login"><h3>Login ou senha inválido</h3></div> : null}</div>
             </div>
         )
     }
