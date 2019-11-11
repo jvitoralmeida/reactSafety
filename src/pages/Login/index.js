@@ -65,7 +65,7 @@ class Login extends Component {
                     <Form.Group as={Row} className="form-user">
                         <Form.Label column sm="1" className="item" >
                             Username
-                </Form.Label>
+                        </Form.Label>
                         <Col sm="5">
                             <Form.Control type="text" name="username" className="item" onChange={this.handleInputChange} placeholder="Digite seu usuário"></Form.Control>
                         </Col>
